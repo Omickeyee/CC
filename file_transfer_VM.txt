@@ -17,6 +17,8 @@
 6] on kali
 	scp File_name.txt user_name@ubuntu_address
 	
+	scp File_name.txt user_name@ubuntu_address:/mint/desktop(path of file)
+	
 	if connection refused
 	check on both
 		sudo systemctl status ssh
